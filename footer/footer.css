@@ -84,6 +84,15 @@
     justify-content: space-between;
 }
 
+.footer-top-left button {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    width: max-content;
+    cursor: inherit;
+}
+
 .footer-container .footer-bottom {
     position: relative;
     padding-top: 2rem;
